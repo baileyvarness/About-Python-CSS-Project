@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+#wrapper {
+    width: 900px;
+    height: 100%;
+    background-image: radial-gradient(#6f5964, #6f5964, #1b0b10);
+    margin: 0 auto;
+    display: block;
+  }
+
+#header {
+      background-color: #184769;
+      width: 100%;
+      height: 550px;
+      padding: 10px
+}
+
+hr {
+    border: 2px solid #5F9DCC;
+}
+
+h4 {
+    line-height: 40px;
+}
+
+p {
+    line-height: 20px;
+}
+
+/* BOXES */
+
+.header-row-one {
+    vertical-align: center;
+    display: inline-block;
+    width: 99%;
+    height: 80px;
+}
+
+.header-row-one-left {
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    width: 45%;
+    height: 100px;
+}
+
+.header-row-one-right {
+    text-align: right;
+    vertical-align: top;
+    display: inline-block;
+    width: 54%;
+    height: 100px;
+    
+}
+
+.header-row-two {
+    text-align: left;
+    vertical-align: top;
+    width: 99%;
+    height: 100px;
+}
+
+.header-row-two-nav {
+    text-align: center;
+    display: inline-block;
+    background-color: #3573A1;
+    padding: 5px;
+    width: 838px;
+    height: 54px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px black;
+}
+
+.header-row-three {
+    vertical-align: top;
+    width: 100%;
+    height: 300px;
+}
+
+.header-left-side-nav {
+    text-align: center;
+    color: white;
+    display: inline-block;
+    vertical-align: center;
+    width: 400px;
+    height: 200px;
+}
+
+.header-right-side-main {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    height: 200px;
+    line-height: 25px;
+}
+
+.main-body-row {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+.card-left {
+    width: 40%;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    text-align: center;
+    margin-left: 60px;
+  
+}
+
+.card-left ul {
+    list-style: square;
+    color: black;
+}
+
+.card-left ul li {
+    color: #5F9DCC;
+}
+
+.card-right {
+    width: 40%;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 30px;;
+}
+
+.card-right ul li {
+    list-style: square;
+    color: #5F9DCC;
+}
+
+footer {
+    background-image: linear-gradient(#18496C, #1D699F);
+    width: 100%;
+    height: 80px;
+    color: #5F9DCC;
+    text-align: center;
+    padding: 40px;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+
+}
+
+
+
+/* INNER BOX DETAILS */
+
+#sidebar-list li{
+    text-align: center;
+    vertical-align: center;
+    padding: 3px;
+}
+
+.search-box-dark {
+    background-color: #3C3C3C;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    display: inherit;
+    
+}
+
+#search-area {
+    height: 30px;
+    width: 130px;
+    margin-top: 9px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 40px;
+}
+
+#go-box {
+    height: 30px;
+    width: 45px;
+    background-color: blue;
+    display: inline-block;
+    margin-right: 35px;
+    margin-top: 9px;
+    vertical-align: top;
+    padding-right: 10px;
+    padding-top: 6px;
+}
+
+/* ALLIGNMENT */
+#ul-inline li{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+
+.vertical-allign-center {
+    vertical-align: center;
+}
+
+/* COLOR*/
+.stand-out-light-shade {
+    color: #F5C740;
+}
+
+.light-text {
+    color: white;
+}
+
+.blueish-text {
+    color: #5F9DCC;
+}
+
+/* FONT OR TEXT */
+.tiny-font {
+    font-size: x-small;
+}
+
+#image-logo-size {
+    width: 246px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-weight: lighter;*/
+}
+
+.italics {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
